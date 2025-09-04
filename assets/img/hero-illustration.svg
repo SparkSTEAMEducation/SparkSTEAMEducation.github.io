@@ -1,0 +1,31 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='780' height='540' viewBox='0 0 780 540' fill='none'>
+  <rect width='780' height='540' rx='24' fill='url(#bg)'/>
+  <g opacity='.9'>
+    <circle cx='120' cy='120' r='56' fill='url(#grad1)'/>
+    <rect x='220' y='90' width='120' height='120' rx='18' fill='url(#grad2)'/>
+    <path d='M520 200c60-40 120-40 160 0s20 120-40 120-120-40-120-120z' fill='url(#grad3)'/>
+    <g transform='translate(60 280)'>
+      <rect x='0' y='0' width='200' height='16' rx='8' fill='rgba(255,255,255,.8)'/>
+      <rect x='0' y='28' width='160' height='16' rx='8' fill='rgba(255,255,255,.6)'/>
+      <rect x='0' y='56' width='120' height='16' rx='8' fill='rgba(255,255,255,.4)'/>
+    </g>
+  </g>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='780' y2='540'>
+      <stop stop-color='#1b1b28'/>
+      <stop offset='1' stop-color='#101018'/>
+    </linearGradient>
+    <radialGradient id='grad1' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='translate(120 120) rotate(90) scale(56)'>
+      <stop stop-color='#FF7A00'/>
+      <stop offset='1' stop-color='#FFAE42'/>
+    </radialGradient>
+    <linearGradient id='grad2' x1='220' y1='90' x2='340' y2='210'>
+      <stop stop-color='#7C4DFF'/>
+      <stop offset='1' stop-color='#B388FF'/>
+    </linearGradient>
+    <linearGradient id='grad3' x1='520' y1='200' x2='680' y2='320'>
+      <stop stop-color='#00E5FF'/>
+      <stop offset='1' stop-color='#1DE9B6'/>
+    </linearGradient>
+  </defs>
+</svg>
